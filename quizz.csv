@@ -143,3 +143,4 @@ La sélection d’une région dans le menu Géolocalisation / Réputation, permet de c
 Quelle est l’action appliquée par défaut si aucune règle de filtrage ne correspond au paquet reçu par l’UTM ?;1;4;1;Eteindre le firewall;Conserver une trace;Bloquer;Passer;3;;;;;
 Pour une meilleure sécurité, on placera les serveurs publics (mail, Web, FTP, etc…) :;1;3;1;De préférence dans la DMZ;De préférence dans le réseau interne;De préférence sur un switch connecté à l’interface externe;1;;;;;;
 Est-il possible de configurer plusieurs adresses IP sur une seule interface du firewall ?;1;4;1;Seulement à partir du SN510;Oui dans tous les cas;Seulement sur les interfaces ethernet 10 Gbps;Non peu importe le modèle;2;;;;;
+Le routage par politique est prioritaire sur la passerelle par defaut;1;2;1;FAUX;VRAI;1;;;;;;;
