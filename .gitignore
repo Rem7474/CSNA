@@ -1,0 +1,26 @@
+# Fichiers temporaires
+*.tmp
+*.bak
+*~
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dossiers IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Fichiers de log
+*.log
+npm-debug.log*
+
+# Fichiers de sauvegarde
+questions_*.json
+!questions.json
+
+# Fichiers de conversion temporaires
+convert_csv_to_json.js
+questions_new.json

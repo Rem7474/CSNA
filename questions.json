@@ -1,0 +1,2103 @@
+﻿{
+    "questions":  [
+                      {
+                          "id":  1,
+                          "question":  "Breach Fighter ne peut pas fonctionner sans l’option « Antivirus Kaspersky »",
+                          "type":  "text",
+                          "answers":  [
+                                          "FAUX",
+                                          "VRAI"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  2,
+                          "question":  "Chaque utilisateur se connectant via un tunnel VPN SSL est automatiquement authentifié au niveau du firewall",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  3,
+                          "question":  "Combien de politique de filtrage et NAT sont disponibles sur les pare-feux Stormshield :",
+                          "type":  "text",
+                          "answers":  [
+                                          "2",
+                                          "4",
+                                          "8",
+                                          "10",
+                                          "3"
+                                      ],
+                          "correctAnswers":  [
+                                                 3
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  4,
+                          "question":  "Dans la liste suivante, sélectionnez les éléments pouvant être représentés par un objet",
+                          "type":  "text",
+                          "answers":  [
+                                          "Un réseau",
+                                          "Une adresse IP",
+                                          "Un utilisateur ou un groupe d\u0027utilisateurs",
+                                          "Un routeur",
+                                          "Un groupe de mots clés à utiliser dans le filtrage URL"
+                                      ],
+                          "correctAnswers":  [
+                                                 0,
+                                                 1,
+                                                 2,
+                                                 3,
+                                                 4
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  5,
+                          "question":  "Dans la politique de filtrage URL, il est possible de sélectionner une page de blocage spécifique par catégorie d’URL",
+                          "type":  "text",
+                          "answers":  [
+                                          "FAUX",
+                                          "VRAI"
+                                      ],
+                          "correctAnswers":  [
+                                                 1
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  6,
+                          "question":  "Dans le cas où le firewall déclenche une alarme majeure, il faut :",
+                          "type":  "text",
+                          "answers":  [
+                                          "Redémarrer le Firewall",
+                                          "Analyser les serveurs",
+                                          "Analyser les traces",
+                                          "Ne rien faire"
+                                      ],
+                          "correctAnswers":  [
+                                                 2
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  7,
+                          "question":  "Dans quels cas est-il intéressant d’utiliser le niveau de trace avancé ?",
+                          "type":  "text",
+                          "answers":  [
+                                          "Tout le temps si je souhaite avoir des log des connexions traversant le pare-feu.",
+                                          "Si je souhaite avoir des log du trafic ICMP et ESP",
+                                          "Si je souhaite avoir des log des paquets bloqués."
+                                      ],
+                          "correctAnswers":  [
+                                                 1,
+                                                 2
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  8,
+                          "question":  "Dans une règle de filtrage, il est possible de renseigner plusieurs objets FQDN comme objets de destination",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  9,
+                          "question":  "Deux VLANs peuvent être rattachés à la même interface physique",
+                          "type":  "text",
+                          "answers":  [
+                                          "FAUX",
+                                          "VRAI"
+                                      ],
+                          "correctAnswers":  [
+                                                 1
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  10,
+                          "question":  "En configuration usine, il est possible (si le matériel le supporte) de se connecter au firewall grâce :",
+                          "type":  "text",
+                          "answers":  [
+                                          "A un câble série",
+                                          "Un écranu tilisant une connexion HDMI ou VGA",
+                                          "Une connexion SSH",
+                                          "Une connexion HTTPS"
+                                      ],
+                          "correctAnswers":  [
+                                                 0,
+                                                 1,
+                                                 3
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  11,
+                          "question":  "En fonction de quel(s) critère(s) l’UTM est capable de filtrer les flux ?",
+                          "type":  "text",
+                          "answers":  [
+                                          "Du port",
+                                          "Du protocole",
+                                          "Du numéro de session",
+                                          "De l’adresse IP source",
+                                          "De l’adresse IP destination"
+                                      ],
+                          "correctAnswers":  [
+                                                 0,
+                                                 1,
+                                                 3,
+                                                 4
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  12,
+                          "question":  "Est-il possible d’arrêter l’écriture des événements pour une catégorie de trace ?",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  13,
+                          "question":  "Est-il possible de désactiver la mise à jour automatique de certains modules (active update) ?",
+                          "type":  "text",
+                          "answers":  [
+                                          "oui",
+                                          "non"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  14,
+                          "question":  "Est-il possible de tracer une règle de NAT ?",
+                          "type":  "text",
+                          "answers":  [
+                                          "Non",
+                                          "Oui"
+                                      ],
+                          "correctAnswers":  [
+                                                 1
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  15,
+                          "question":  "Il est impossible d’avoir plus de deux interfaces au sein d’un bridge",
+                          "type":  "text",
+                          "answers":  [
+                                          "FAUX",
+                                          "VRAI"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  16,
+                          "question":  "Il est possible d’éditer des éléments de la configuration du firewall depuis Activity Report",
+                          "type":  "text",
+                          "answers":  [
+                                          "FAUX",
+                                          "VRAI"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  17,
+                          "question":  "Il est possible d’éditer la page de blocage utilisée dans le filtrage URL :",
+                          "type":  "text",
+                          "answers":  [
+                                          "oui",
+                                          "non"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  18,
+                          "question":  "Il est possible de faire de la redirection de port pour le protocole ICMP.",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 1
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  19,
+                          "question":  "Il n’est pas possible d’utiliser une liste d’objets dans la destination d’une règle de filtrage si on y insère un objet FQDN.",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  20,
+                          "question":  "Il n’est pas possible de filtrer les sites web utilisant HTTPS avec le proxy HTTP (filtrage URL) :",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  21,
+                          "question":  "Il n’est pas possible de rediriger vers le portail captif les utilisateurs visant un site web en HTTPS :",
+                          "type":  "text",
+                          "answers":  [
+                                          "Faux, la règle de redirection permet de le faire de base.",
+                                          "Vrai, c’est impossible car HTTPS est chiffré.",
+                                          "Vrai, mais on peututiliser le proxy SSL pour cela."
+                                      ],
+                          "correctAnswers":  [
+                                                 2
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  22,
+                          "question":  "IPSec est un standard",
+                          "type":  "text",
+                          "answers":  [
+                                          "Checkpoint",
+                                          "IBM",
+                                          "Stormshield",
+                                          "Internet (IETF)",
+                                          "Cisco"
+                                      ],
+                          "correctAnswers":  [
+                                                 3
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  23,
+                          "question":  "IPsec utilise TCP pour négocier la connexion, puisse envoie les données chiffrées grâce à UDP :",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 1
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  24,
+                          "question":  "Je dois installer un firewall Stormshield Network au sein d’un réseau existant. La configuration actuelle est composée d’un routeur relié directement au LAN. Le routeur est la passerelle par défaut de l’ensemble des machines internes. On souhaite sécuriser ce réseau en ne modifiant ni la configuration du routeur, ni la configuration des stations de travail. Quel mode est le plus approprié à ce type d’architecture ?",
+                          "type":  "text",
+                          "answers":  [
+                                          "Mode furtif (stealth)",
+                                          "Mode transparent (bridge)",
+                                          "Mode avancé (routé)",
+                                          "Mode hybride"
+                                      ],
+                          "correctAnswers":  [
+                                                 1
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  25,
+                          "question":  "L’action « block » sur une règle de filtrage permet de rejeter une connexion et d’infor er le client que ce trafic n’est pas autorisé :",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 1
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  26,
+                          "question":  "L’action « Bloquer » dans une règle de filtrage lève systématiquement une alarme",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 1
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  27,
+                          "question":  "L’activation d’une règle de filtrage peut se faire en fonction du jour et de l’heure.",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  28,
+                          "question":  "L’adresse IP 135.1.1.0/23 est une adresse :",
+                          "type":  "text",
+                          "answers":  [
+                                          "Privée",
+                                          "D\u0027hôte",
+                                          "De broadcast",
+                                          "De Réseau"
+                                      ],
+                          "correctAnswers":  [
+                                                 3
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  29,
+                          "question":  "L’adresse IP fournie à un client VPN SSL fait impérativement partie d’un réseau porté par une interface du firewall",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  30,
+                          "question":  "L’envoi des traces vers un serveur syslog est possible :",
+                          "type":  "text",
+                          "answers":  [
+                                          "Sur aucun UTM",
+                                          "Uniquement sur les SN200 et SN300",
+                                          "Sur tous les UTMs de la gamme"
+                                      ],
+                          "correctAnswers":  [
+                                                 2
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  31,
+                          "question":  "L’option keepalive permet au pare-feu de détecter des coupures de connexion :",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 1
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  32,
+                          "question":  "L’utilisation de l’option Extended Web Control avec proxy http permet d’éviter le stockage local de la base de données des catégories URL",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  33,
+                          "question":  "La base d’URL extended web control ne peut pas être utilisée sur les petits modèles de pare-feucar l’espace disque est insuffisant :",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 1
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  34,
+                          "question":  "La catégories personnalisées sont prioritaires sur les catégories intégrées dans le pare-feu :",
+                          "type":  "text",
+                          "answers":  [
+                                          "Seulementsi la règle de filtrage est située avant.",
+                                          "Toujours.",
+                                          "Jamais, c\u0027est l\u0027inverse"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  35,
+                          "question":  "La clé ISAKMP négociée lors de la phase 1 d’un VPN IPSec permet",
+                          "type":  "text",
+                          "answers":  [
+                                          "De chiffrer le trafic à envoyer par le protocole ESP",
+                                          "De chiffrer les échanges effectués lors de la négociation de la phase 2",
+                                          "De déchiffrer le trafic ESP reçu"
+                                      ],
+                          "correctAnswers":  [
+                                                 1
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  36,
+                          "question":  "La création d’un utilisateur par enrôlement nécessite obligatoirement une action de la part d’un administrateur :",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  37,
+                          "question":  "La directive « Via Tunnel VPN IPSec » de la politique de filtrage permet de forcer la transmission d’un trafic dans le tunnel VPN IPSec",
+                          "type":  "text",
+                          "answers":  [
+                                          "FAUX",
+                                          "VRAI"
+                                      ],
+                          "correctAnswers":  [
+                                                 1
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  38,
+                          "question":  "La mise à jour système est possible",
+                          "type":  "text",
+                          "answers":  [
+                                          "Peu importe la partition active",
+                                          "Seulement lorsque la partition de secours est active",
+                                          "Seulement lorsque la partition principale est active"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  39,
+                          "question":  "La négociation d’un tunnel IPsec est initiée seulement s’il y a des données à envoyer dans le tunnel :",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  40,
+                          "question":  "La partition active peut être sauvegardée",
+                          "type":  "text",
+                          "answers":  [
+                                          "Sur tous les modèles d’UTMs",
+                                          "Seulement sur les appliances virtuelles",
+                                          "Seulement sur les appliances physiques"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  41,
+                          "question":  "La publication ARP permet au pare-feu de répondre aux requêtes ARP sur des adresses IP ne lui appartenant pas (non configurée sur une interface) :",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  42,
+                          "question":  "La restauration d’une configuration",
+                          "type":  "text",
+                          "answers":  [
+                                          "S’effectue grâce à l’import d’un fichier au format « .na »",
+                                          "Ne peut s’effectuer que si le fichier de configuration est protégé par un mot de passe",
+                                          "Ne peut pas s’effectuer depuis une sauvegarde automatique",
+                                          "Peut s’effectuer partiellement depuis une sauvegarde automatique"
+                                      ],
+                          "correctAnswers":  [
+                                                 0,
+                                                 3
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  43,
+                          "question":  "La translation d’adresse permet à plusieurs serveurs web d’être accessibles sur la mêmeadresse IP publique et le même port.",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 1
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  44,
+                          "question":  "La translation dynamique nécessite une réécriture de port source : Vrai seulement s’il y a plusieurs machines émettant des connexions à translater",
+                          "type":  "text",
+                          "answers":  [
+                                          "Vrai dans tous les cas",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  45,
+                          "question":  "Le Firewall Stormshield Network est basé sur un système d’exploitation :",
+                          "type":  "text",
+                          "answers":  [
+                                          "Solaris",
+                                          "FreeBSD",
+                                          "OpenBSD",
+                                          "Propriéraire"
+                                      ],
+                          "correctAnswers":  [
+                                                 3
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  46,
+                          "question":  "Le firewall stormshield Network peut jouer le rôle de serveur DHCP pour les machines du réseau local",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  47,
+                          "question":  "Le mécanisme de translation d’adresse apporte un premier niveau de sécurité en :",
+                          "type":  "text",
+                          "answers":  [
+                                          "Chiffrant les adresses IP",
+                                          "Filtrant l’accès de certaines IP",
+                                          "Cachant les adresses internes vis-à-vis de l’extérieur",
+                                          "Translatant les adresses réseaux sur un serveur sécurisé"
+                                      ],
+                          "correctAnswers":  [
+                                                 2
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  48,
+                          "question":  "Le nombre de règles de filtrage que peut gérer le firewall est :",
+                          "type":  "text",
+                          "answers":  [
+                                          "Illimité",
+                                          "Limité à 2048",
+                                          "Limité à 1024",
+                                          "La limite dépend du modèle de l’UTM"
+                                      ],
+                          "correctAnswers":  [
+                                                 3
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  49,
+                          "question":  "Le nombre de VPN SSL est limité et dépend",
+                          "type":  "text",
+                          "answers":  [
+                                          "Du modèle du firewall et de l’adresse réseau assignée aux clients",
+                                          "De la version du firmware",
+                                          "D’aucune des réponses citées",
+                                          "Du nombre de VPN IPsec actifs"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  50,
+                          "question":  "Le pare-feu peut gérer simultanémentdes connexions UDP et TCP au VPN SSL :",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  51,
+                          "question":  "Le pare-feu Stormshield permet d’autoriser spécifiquement un message ICMP avec son type et son code.",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  52,
+                          "question":  "Le protocole ARP permet de déterminer automatiquement la passerelle à utiliser pour joindre une machine :",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 1
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  53,
+                          "question":  "Le protocole de gestion des erreurs de transmission est :",
+                          "type":  "text",
+                          "answers":  [
+                                          "ICMP",
+                                          "NNTP",
+                                          "IPX",
+                                          "NTP"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  54,
+                          "question":  "Le protocole syslog est utilisable uniquement chiffré avec TLS sur les firewalls Stormshield :",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 1
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  55,
+                          "question":  "Le Règlement Général sur la Protection des Données (RGPD) n’a pas d’incidence sur la gestion des logs",
+                          "type":  "text",
+                          "answers":  [
+                                          "FAUX",
+                                          "VRAI"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  56,
+                          "question":  "Le service NTP (Network Time Protocol)",
+                          "type":  "text",
+                          "answers":  [
+                                          "Est soumis à une option de licence",
+                                          "A besoin de connaître le fuseau horaire de l’UTM pour synchroniser l’heure",
+                                          "Détermine lui-même l’heure locale grace à un signal GPS"
+                                      ],
+                          "correctAnswers":  [
+                                                 1
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  57,
+                          "question":  "Le SNI est un champ dans le handshake TLS/SSL qui contient l’URL demandée par le client :",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 1
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  58,
+                          "question":  "Le VPN SSL est une implémentation non standard,spécifique Stormshield :",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 1
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  59,
+                          "question":  "Les analyses pourle filtrage URL sont effectuées par le module IPS ASQ :",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 1
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  60,
+                          "question":  "Les extrémités de trafic d’un tunnel IPSec représentent les machines /réseaux qui pourront communiquer au travers du tunnel",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  61,
+                          "question":  "Les modems de la configuration réseau peuvent être de type",
+                          "type":  "text",
+                          "answers":  [
+                                          "HTTP",
+                                          "PPoE",
+                                          "L2TP",
+                                          "PPTP",
+                                          "3G"
+                                      ],
+                          "correctAnswers":  [
+                                                 1,
+                                                 2,
+                                                 3,
+                                                 4
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  62,
+                          "question":  "Les objets commençant par Network_ peuvent être modifiés directement depuis la base objets",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  63,
+                          "question":  "Les objets routeurs peuventêtre utilisés comme route par défaut :",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  64,
+                          "question":  "Les règles de filtrage implicites peuvent toute être désactivées  :",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  65,
+                          "question":  "Les réponses d’une connexion établie au travers du firewall doivent être autorisées explicitement dans les règles de filtrage",
+                          "type":  "text",
+                          "answers":  [
+                                          "FAUX",
+                                          "VRAI"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  66,
+                          "question":  "Les routes statiques",
+                          "type":  "text",
+                          "answers":  [
+                                          "Permettent à l’UTM de connaître l’emplacement de réseaux distants",
+                                          "Permettent de faire du routage en fonction de l’adresse IP source",
+                                          "N’ont pas d’utilité sur les UTM Stormshield Network"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  67,
+                          "question":  "Les utilisateurs connectés en VPN SSL sont automatiquement authentifiés sans devoir passer par le portail captif :",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  68,
+                          "question":  "Les utilisateurs s’authentifient avec des certificats uniques sur le VPN SSL :",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 1
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  69,
+                          "question":  "Les UTM Stormshield Network analysent les connexions provenant de l’extérieur seulement.",
+                          "type":  "text",
+                          "answers":  [
+                                          "FAUX",
+                                          "VRAI"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  70,
+                          "question":  "Les UTM Stormshield Network sont capables de limiter la taille de chaque paquet ping (ICMP echo) arrivant sur un serveur",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  71,
+                          "question":  "Les VLAN créés sur les firewalls SN respectent la norme",
+                          "type":  "text",
+                          "answers":  [
+                                          "802.1q",
+                                          "ISO-3166",
+                                          "RFC 894",
+                                          "Hyperlan"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  72,
+                          "question":  "Les VTIfont partie du standardIKEv2 est ne sont pas disponibles sur IKEv1 :",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 1
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  73,
+                          "question":  "L\u0027opération de NAT qui modifie l\u0027adresse IP et le port source",
+                          "type":  "text",
+                          "answers":  [
+                                          "Est uniquement configurable dans la politique de NAT",
+                                          "Modifie le port destination dans tous les cas",
+                                          "Peut être définie dans une règle de filtrage et sera analysée en priorité sur les règles définies dans l’onglet NAT de la politique active",
+                                          "Doit impérativement être définie dans le filtrage"
+                                      ],
+                          "correctAnswers":  [
+                                                 2
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  74,
+                          "question":  "Lors de la création d’un VPN IPSec, si je paramètre une authentification par PSK, cela signifie :",
+                          "type":  "text",
+                          "answers":  [
+                                          "Par clé pré-partagée",
+                                          "Par certificat",
+                                          "Par authentification LDAP",
+                                          "Par authentification RADIUS"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  75,
+                          "question":  "Lorsqu’un tunnel IPSec est défini entre deux passerelles Stormshield, avec une authentification par clés pré-partagées, les deux correspondants doivent impérativement utiliser la même clé pré-partagée ?",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "Cela dépend de l’équipement avec lequel le tunnel est négocié",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  76,
+                          "question":  "Lorsque la quantité d’espace disque allouée à une catégorie de log est atteinte, quelles actions sont possibles ?",
+                          "type":  "text",
+                          "answers":  [
+                                          "Effectuer une rotation automatique des fichiers de logs",
+                                          "Arrêter l’écriture des logs",
+                                          "Arrêter l’équipement Stormshield",
+                                          "Envoyer un ping"
+                                      ],
+                          "correctAnswers":  [
+                                                 0,
+                                                 1
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  77,
+                          "question":  "Par défaut, les logs n’affichent pas les adresses IP de destination à cause de la RGPD.",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 1
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  78,
+                          "question":  "Parmi les listes suivantes, lesquelles correspondent aux priorités de routage possibles (1=plus prioritaire, 4 = moins prioritaire)",
+                          "type":  "text",
+                          "answers":  [
+                                          "1) Routage statique\u003cbr\u003e2) Routage par politique (PBR)\u003cbr\u003e3) Routage par interface\u003cbr\u003e4) Passerelle par défaut",
+                                          "1) Routage par politique (PBR)\u003cbr\u003e2) Routage statique\u003cbr\u003e3) Routage par interface\u003cbr\u003e4) Passerelle par défaut",
+                                          "1) Routage statique\u003cbr\u003e2) Routage par interface\u003cbr\u003e3) Routage par politique (PBR)\u003cbr\u003e4) Passerelle par défaut",
+                                          "1) Passerelle par défaut \u003cbr\u003e2) Routage par interface\u003cbr\u003e3) Routage par politique (PBR)\u003cbr\u003e 4) Routage statique"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  79,
+                          "question":  "Parmi les paramètres suivants, quelles sont ceux qui peuvent être utilisées dans une règle de filtrage ?",
+                          "type":  "text",
+                          "answers":  [
+                                          "Interface réseau d’entrée",
+                                          "Adresse IP destination",
+                                          "Message ICMP",
+                                          "Port destination (TCP ou UDP)",
+                                          "Adresse réseau source",
+                                          "Adresse MAC destination"
+                                      ],
+                          "correctAnswers":  [
+                                                 0,
+                                                 1,
+                                                 3,
+                                                 4
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  80,
+                          "question":  "Pour autoriser un trafic TCP à passer au travers du pare-feu, il faut impérativement créer une seconde règle pour autoriser les paquets réponses, sinon le client ne recevra jamais les données demandées au serveur.",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 1
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  81,
+                          "question":  "Pour connaître la catégorie dans laquelle est présente un site, je peux :",
+                          "type":  "text",
+                          "answers":  [
+                                          "Utiliser le bouton « Vérifier l’utilisation » du menu Objets réseaux",
+                                          "Utiliser le bouton « Classifier » des menus Objets WEB ou Filtrage URL",
+                                          "Il n’existe aucun moyen de faire cette recherche"
+                                      ],
+                          "correctAnswers":  [
+                                                 1
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  82,
+                          "question":  "Pour l’adresse IP 194.12.27.33 et le masque 255.255.255.240, l’adresse réseau et l’adresse Broadcast sont respectivement :",
+                          "type":  "text",
+                          "answers":  [
+                                          "194.12.27.0 et 194.12.27.127",
+                                          "194.12.27.32 et 194.12.27.47",
+                                          "194.12.27.0 et 194.12.27.15",
+                                          "194.12.27.32 et 194.12.27.63"
+                                      ],
+                          "correctAnswers":  [
+                                                 1
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  83,
+                          "question":  "Pour qu’un utilisateur puisse se connecter en VPN SSL, je dois :",
+                          "type":  "text",
+                          "answers":  [
+                                          "Autoriser l’accès au VPN pour cet utilisateur",
+                                          "Lui fournir l’adresse IP publique de mon firewall",
+                                          "Activer le portail captif sur l’interface externe",
+                                          "Avoir unannuairelié à mon pare-feu",
+                                          "Créer une règle de filtrage pour autoriser spécifiquement cet utilisateur à se connecter"
+                                      ],
+                          "correctAnswers":  [
+                                                 0,
+                                                 1,
+                                                 2,
+                                                 3
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  84,
+                          "question":  "Quel est le mot depasse et le compte administrateurpar défaut du SNS ?",
+                          "type":  "text",
+                          "answers":  [
+                                          "Login : admin, password : admin",
+                                          "Login : root, password : password",
+                                          "Login : admin, password : root",
+                                          "Login : root, password : stormshield"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  85,
+                          "question":  "Quelflux le proxy SSL peut-il déchiffrer et analyser ?",
+                          "type":  "text",
+                          "answers":  [
+                                          "SSH",
+                                          "HTTPS",
+                                          "SFTP",
+                                          "FTPS",
+                                          "SMTPS"
+                                      ],
+                          "correctAnswers":  [
+                                                 1,
+                                                 3,
+                                                 4
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  86,
+                          "question":  "Quelle est l’adresse IP par défaut du SNS ?",
+                          "type":  "text",
+                          "answers":  [
+                                          "10.0.0.254/8",
+                                          "192.168.1.1/24",
+                                          "192.168.0.1/24",
+                                          "10.0.0.1/8"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  87,
+                          "question":  "Quelles inspections de sécurité peuvent être activées dans la politique de filtrage",
+                          "type":  "text",
+                          "answers":  [
+                                          "Analyse antispam",
+                                          "Filtrage SMTP",
+                                          "Antiphishing",
+                                          "Filtrage URL",
+                                          "Analyse antivirale"
+                                      ],
+                          "correctAnswers":  [
+                                                 0,
+                                                 1,
+                                                 2,
+                                                 3,
+                                                 4
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  88,
+                          "question":  "Quelles sont certaines des caractéristiques d’une configuration usine ?",
+                          "type":  "text",
+                          "answers":  [
+                                          "Serveur DHCP actif",
+                                          "Configuration réseau en mode transparent (mode bridge)",
+                                          "Adresse IP des interfaces en 10.0.0.254/16",
+                                          "Filtrage autorisant tout type de trafic"
+                                      ],
+                          "correctAnswers":  [
+                                                 0,
+                                                 1,
+                                                 2,
+                                                 3
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  89,
+                          "question":  "Quelles sont les assertions vraies :",
+                          "type":  "text",
+                          "answers":  [
+                                          "Les pare-feux SNS ne peuventpas stocker de logs en local.",
+                                          "Il est possible de stocker les logs sur une clef USB connectée au firewall.",
+                                          "4 serveurs syslog peuvent être configurés, ainsi que 4 serveurs de secours."
+                                      ],
+                          "correctAnswers":  [
+                                                 2
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  90,
+                          "question":  "Quelles sont les assertions vraies :",
+                          "type":  "text",
+                          "answers":  [
+                                          "L’objet dynamique récupère son IP automatiquement depuis les serveurs DNS",
+                                          "Un objet hôte peutêtre dynamiqueou statique.",
+                                          "Un objet FQDN est toujours résolu automatiquement.",
+                                          "Grâce au DHCP, le pare-feu peut découvrir automatiquement les adresses IP des autres machines du réseau et créer les objets correspondants."
+                                      ],
+                          "correctAnswers":  [
+                                                 0,
+                                                 1,
+                                                 2
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  91,
+                          "question":  "Quelles sont les assertions vraies :",
+                          "type":  "text",
+                          "answers":  [
+                                          "Il est impossible de créer manuellement l’objet Firewall_A.",
+                                          "Il est possible de créer un groupe d’objets FQDN.",
+                                          "L’objet Network_external est géré automatiquement par le pare-feu.",
+                                          "Il est possible d’exporter les objets sous forme d’un fichier CSV",
+                                          "L’import d’un fichier CSV remplace systématiquement toute la base d’objets. Il faut donc être vigilant et ne pas oublier d’objet dans le fichier au risque de casser la configuration."
+                                      ],
+                          "correctAnswers":  [
+                                                 0,
+                                                 3
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  92,
+                          "question":  "Quels navigateurs sont officiellement supportés ?",
+                          "type":  "text",
+                          "answers":  [
+                                          "Chrome dernière version",
+                                          "Mozilla Firefox dernière version",
+                                          "Microsoft Edge dernière version",
+                                          "Opera dernière version"
+                                      ],
+                          "correctAnswers":  [
+                                                 0,
+                                                 1,
+                                                 2
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  93,
+                          "question":  "Quels types de VPN puis-je établir entre deux UTMs Stormshield Network ?",
+                          "type":  "text",
+                          "answers":  [
+                                          "VPN SSL",
+                                          "VPN PPTP",
+                                          "VPN Ipsec",
+                                          "OpenVPN"
+                                      ],
+                          "correctAnswers":  [
+                                                 0,
+                                                 2
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  94,
+                          "question":  "Sans VTI, il est impossible de faire fonctionner deux tunnels entre les mêmes réseaux simultanément (pour un besoin de redondance par exemple) :",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  95,
+                          "question":  "Seul le super administrateur « admin » peut accéder aux logs complets en cliquant sur « accès restreint aux logs »",
+                          "type":  "text",
+                          "answers":  [
+                                          "FAUX",
+                                          "VRAI"
+                                      ],
+                          "correctAnswers":  [
+                                                 1
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  96,
+                          "question":  "SHA1est unalgorithmede hachage sûr pourles tunnel VPN :",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 1
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  97,
+                          "question":  "Si deux règles de translation ont les mêmes critères de sélection de trafic, c’est la dernière dans la liste qui s’appliquera :",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 1
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  98,
+                          "question":  "Si je veux établir des communications chiffrées entre mon LAN et le LAN d’un prestataire, ainsi qu’entre ma DMZ el le LAN du prestataire, combien de correspondants différents dois-je définir ?",
+                          "type":  "text",
+                          "answers":  [
+                                          "1",
+                                          "Aucun",
+                                          "4",
+                                          "3",
+                                          "5",
+                                          "2"
+                                      ],
+                          "correctAnswers":  [
+                                                 5
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  99,
+                          "question":  "Stormshield Real-time Monitor peut être utilisé pour :",
+                          "type":  "text",
+                          "answers":  [
+                                          "Afficher les règles de filtrage implicites",
+                                          "Injecter une nouvelle licence",
+                                          "Visualiser les derniers évènements",
+                                          "Mettre à jour la version de firmware"
+                                      ],
+                          "correctAnswers":  [
+                                                 0,
+                                                 2
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  100,
+                          "question":  "Sur les UTM Stormshield, la négociation des paramètres IPSec est assuré par le protocole",
+                          "type":  "text",
+                          "answers":  [
+                                          "AH",
+                                          "PPTP",
+                                          "L2TP",
+                                          "IKE",
+                                          "ESP",
+                                          "VPN"
+                                      ],
+                          "correctAnswers":  [
+                                                 3
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  101,
+                          "question":  "Sur quels UTM pouvez-vous sauvegarder la partition active ?",
+                          "type":  "text",
+                          "answers":  [
+                                          "SN510",
+                                          "SN300",
+                                          "SN710",
+                                          "SN200"
+                                      ],
+                          "correctAnswers":  [
+                                                 0,
+                                                 1,
+                                                 2,
+                                                 3
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  102,
+                          "question":  "Sur un firewall physique, peut-on basculer de la partition principale vers la partition de secours sans redémarrer le boitier",
+                          "type":  "text",
+                          "answers":  [
+                                          "Oui",
+                                          "Non"
+                                      ],
+                          "correctAnswers":  [
+                                                 1
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  103,
+                          "question":  "Tous les administrateurs du pare-feu peuvent gérer les droits des autres administrateurs :",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 1
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  104,
+                          "question":  "Tous les administrateurs peuvent avoir accès aux informations personnelles dans les log à partir du moment où ils ont un mot de passe temporaired’accès.",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  105,
+                          "question":  "Tous les firewalls Stormshield Network intègrent des interfaces Ethernet Gigabit.",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "Tous les UTMs de la gamme sont équipés d’interfaces Ethernet 100 Mbps maximum",
+                                          "Vrai sauf le SN150"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  106,
+                          "question":  "Un bridge contenant les interfaces dmz1 et dmz2 permet aux machines connectées sur ces deux interfaces de communiquer directement sans filtrage ni analyse.",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 1
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  107,
+                          "question":  "Un code d’accès pour un accès complet aux logs",
+                          "type":  "text",
+                          "answers":  [
+                                          "Ne peut être émis que par un administrateur ayant les droits correspondants",
+                                          "Peut être utilisé par plusieurs administrateurs",
+                                          "A une date de début et une date de fin",
+                                          "Est créé dans le menu Configuration \u003e\u003e Notification \u003e\u003e Logs – Syslog"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  108,
+                          "question":  "Un serveur DNS permet :",
+                          "type":  "text",
+                          "answers":  [
+                                          "De récupérer des alarmes",
+                                          "De translater l’adresse IP privée d’un serveur avec une adresse IP publique",
+                                          "D’associer le nom d’une machine à une adresse IP",
+                                          "D’envoyer des e-mails"
+                                      ],
+                          "correctAnswers":  [
+                                                 2
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  109,
+                          "question":  "Un tunnel IPsec garantit  :",
+                          "type":  "text",
+                          "answers":  [
+                                          "L’authentification",
+                                          "La qualité de service",
+                                          "L’intégrité",
+                                          "La confidentialité",
+                                          "L’anti-rejeu",
+                                          "La réception"
+                                      ],
+                          "correctAnswers":  [
+                                                 0,
+                                                 2,
+                                                 3,
+                                                 4
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  110,
+                          "question":  "Un tunnel VPN IPSec peut être monté entre",
+                          "type":  "text",
+                          "answers":  [
+                                          "Un UTM Stormshield et un client compatible IPSec",
+                                          "Deux clients VPN Stormshield",
+                                          "Deux UTM Stormshield",
+                                          "Un UTM Stormshield et un équipement compatible IPSec",
+                                          "Un UTM Stormshield et un client VPN Stormshield"
+                                      ],
+                          "correctAnswers":  [
+                                                 0,
+                                                 2,
+                                                 3,
+                                                 4
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  111,
+                          "question":  "Un utilisateur authentifié peut être un critère d’application d’une règle de NAT",
+                          "type":  "text",
+                          "answers":  [
+                                          "FAUX",
+                                          "VRAI"
+                                      ],
+                          "correctAnswers":  [
+                                                 1
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  112,
+                          "question":  "Un utilisateur authentifié peut être un critère d’application d’une règle de NAT",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  113,
+                          "question":  "Un utilisateur ne parvient pas à s’authentifier sur le portail captif, Il sera alors redirigé vers une autre méthode d’authentification",
+                          "type":  "text",
+                          "answers":  [
+                                          "Vrai dans tous les cas",
+                                          "Faux, l’utilisateur ne peut s’authentifier qu’avec une seule méthode",
+                                          "Vrai mais cela dépend de la politique d’authentification"
+                                      ],
+                          "correctAnswers":  [
+                                                 2
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  114,
+                          "question":  "Une des limites de l’annuaire interne au pare-feu est u’il ne supporte pas les groupes d’utilisateurs :",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 1
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  115,
+                          "question":  "Une route de retour est obligatoire pour joindre l’Internet :",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 1
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  116,
+                          "question":  "Une route statique est nécessaire pour que le firewall puisse envoyer les paquets dans un tunnel IPsec :",
+                          "type":  "text",
+                          "answers":  [
+                                          "Vrai dans tous les cas",
+                                          "Vrai seulement avec des VTI",
+                                          "Vrai seulement avec de la correspondance de politique (tunnel IPsec standard)",
+                                          "Faux danstous les cas"
+                                      ],
+                          "correctAnswers":  [
+                                                 1
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  117,
+                          "question":  "Une translation dynamique (SNAT) peut être configurée au sein d’une règle de filtrage",
+                          "type":  "text",
+                          "answers":  [
+                                          "FAUX",
+                                          "VRAI"
+                                      ],
+                          "correctAnswers":  [
+                                                 1
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  118,
+                          "question":  "Vous devez configurer la translation d\u0027adresses afin de permettre l\u0027accès à Internet à une cinquantaine d\u0027utilisateurs. Quel type de translation utilisez-vous ?",
+                          "type":  "text",
+                          "answers":  [
+                                          "Translation dynamique",
+                                          "Translation statique",
+                                          "Translation statique par port"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  119,
+                          "question":  "Vous n’avez qu’une seule adresse publique disponible pour configurer votre firewall SN. Vous avez une règle de translation permettant l’accès à Internet pour l’ensemble des machines internes. Vous devez maintenant permettre à votre serveur de mails interne d’échanger des messages avec des serveurs publics. Quelle translation utilisez-vous ?",
+                          "type":  "text",
+                          "answers":  [
+                                          "Translation statique par port",
+                                          "Translation statique",
+                                          "Aucune translation",
+                                          "Translation dynamique"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  120,
+                          "question":  "Lors d’un routage sans NAT, quelle modification est appliquée par chaque saut (routeur)",
+                          "type":  "text",
+                          "answers":  [
+                                          "L’adresse ethernet (MAC) de destination",
+                                          "Le port source",
+                                          "L’adresse IP source",
+                                          "L’adresse IP de destination"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  121,
+                          "question":  "L’UTM peut récupérer automatiquement l’adresse IP de sa passerelle par défaut, dans le cas où l’interface est configurée en DHCP",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  122,
+                          "question":  "Le droit d’accès VPN SSL est global à tous les utilisateurs",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 1
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  123,
+                          "question":  "L\u0027opération de NAT qui modifie l\u0027adresse IP et le port source",
+                          "type":  "text",
+                          "answers":  [
+                                          "Peut être définie dans une règle de filtrage et sera analysée en priorité sur les règles définies dans l’onglet NAT de la politique active",
+                                          "Modifie le port destination dans tous les cas",
+                                          "Est uniquement configurable dans la politique de NAT",
+                                          "Doit impérativement être définie dans le filtrage"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  124,
+                          "question":  "Les paquets ICMP de type « echo reply » peuvent être tracés dans les logs de filtrage grâce à la directive « tracer » de la politique de filtrage.",
+                          "type":  "text",
+                          "answers":  [
+                                          "FAUX",
+                                          "VRAI"
+                                      ],
+                          "correctAnswers":  [
+                                                 1
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  125,
+                          "question":  "Combien de phases sont nécessaires à l’établissement d’un tunnel VPN IPSec ?",
+                          "type":  "text",
+                          "answers":  [
+                                          "1",
+                                          "10",
+                                          "3",
+                                          "2",
+                                          "Aucune",
+                                          "5"
+                                      ],
+                          "correctAnswers":  [
+                                                 3
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  126,
+                          "question":  "J’installe un serveur Web dans une DMZ. Je souhaite rendre ce serveur accessible sur les ports http et HTTPS depuis n’importe quelle machine d’Internet. Quelle(s) règle(s) de filtrage dois-je ajouter ?",
+                          "type":  "text",
+                          "answers":  [
+                                          "Les flux http et HTTPS depuis Network_out vers l’adresse privée du serveur",
+                                          "Les flux http et HTTPS depuis l’adresse publique du serveur web vers Internet",
+                                          "Les flux http et HTTPS depuis Internet vers l’adresse privée du serveur",
+                                          "Les flux http et HTTPS depuis Internet vers l’adresse publique du serveur"
+                                      ],
+                          "correctAnswers":  [
+                                                 3
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  127,
+                          "question":  "Quelles sont les particularités du mode « Transparent » ?",
+                          "type":  "text",
+                          "answers":  [
+                                          "Chaque interface dispose de son propre plan d’adressage",
+                                          "Toutes les interfaces sont contenues dans un bridge (pont)",
+                                          "Certaines interfaces sont dans un bridge et d’autres ont leur propre plan d’adressage",
+                                          "Toutes les interfaces ont la même adresse IP"
+                                      ],
+                          "correctAnswers":  [
+                                                 1
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  128,
+                          "question":  "Le modem (dialup) créé via l’assistant :",
+                          "type":  "text",
+                          "answers":  [
+                                          "Aucune des autres réponses citées",
+                                          "Force obligatoirement la MSS à 1300 octets",
+                                          "Peut être de type L2TP",
+                                          "Sera obligatoirement connecté à une interface publique"
+                                      ],
+                          "correctAnswers":  [
+                                                 2
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  129,
+                          "question":  "Le nombre maximum de VLANs",
+                          "type":  "text",
+                          "answers":  [
+                                          "Peut être modifié depuis l’IHM et ne nécessite pas de redémarrage de l’UTM",
+                                          "Ne peut être modifié",
+                                          "Dépend du modèle de l’UTM",
+                                          "Se modifie uniquement en ligne de commandes et nécessite un redémarrage de l’UTM",
+                                          "Peut être modifié depuis l’IHM mais nécessite un redémarrage de l’UTM"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  130,
+                          "question":  "Il n’est pas possible d’appliquer du routage par interface sur un VLAN",
+                          "type":  "text",
+                          "answers":  [
+                                          "FAUX",
+                                          "VRAI"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  131,
+                          "question":  "Dans le menu des objets WEB, il est possible d’éditer une catégorie d’URL afin de lire l’ensemble de son contenu",
+                          "type":  "text",
+                          "answers":  [
+                                          "FAUX",
+                                          "VRAI"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  132,
+                          "question":  "Lorsque la base LDAP est interne au firewall, l’authentification des utilisateurs s’effectue obligatoirement par mot de passe",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "Vrai, mais uniquement depuis les interfaces protégées",
+                                          "FAUX",
+                                          "Aucune des réponses proposées",
+                                          "Vrai, mais uniquement pour les utilisateurs qui ne possèdent pas de droits d’administration sur l’UTM"
+                                      ],
+                          "correctAnswers":  [
+                                                 2
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  133,
+                          "question":  "L’adresse IP fournie à un client VPN SSL fait impérativement partie d’un réseau porté par une interface du firewall",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  134,
+                          "question":  "Quelles bases LDAP peuvent être configurées sur un UTM Stormshield Network",
+                          "type":  "text",
+                          "answers":  [
+                                          "Base LDAP externe (ex : OpenLDAP)",
+                                          "Base Microsoft Active Directory",
+                                          "Base LDAP interne"
+                                      ],
+                          "correctAnswers":  [
+                                                 0,
+                                                 1,
+                                                 2
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  135,
+                          "question":  "Est-il possible de créer en un clic une politique de filtrage URL avec l’ensemble des groupes personnalisés que vous avez créé au préalable",
+                          "type":  "text",
+                          "answers":  [
+                                          "Non",
+                                          "oui"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  136,
+                          "question":  "Combien de politiques de filtrage peuvent être actives à la fois",
+                          "type":  "text",
+                          "answers":  [
+                                          "5",
+                                          "2",
+                                          "10",
+                                          "1"
+                                      ],
+                          "correctAnswers":  [
+                                                 3
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  137,
+                          "question":  "La méthode agent SSO authentifie l’utilisateur dès qu’il effectue une connexion http au travers de l’UTM",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  138,
+                          "question":  "Quelles inspections de sécurité peuvent être activées dans la politique de filtrage",
+                          "type":  "text",
+                          "answers":  [
+                                          "Filtrage SMTP",
+                                          "Filtrage URL",
+                                          "Antiphishing",
+                                          "Analyse antivirale",
+                                          "Analyse antispam"
+                                      ],
+                          "correctAnswers":  [
+                                                 0,
+                                                 1,
+                                                 3,
+                                                 4
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  139,
+                          "question":  "Lors de l’application d’une règle de NAT, Il est possible de modifier simultanément l’adresse IP source et l’adresse IP destination",
+                          "type":  "text",
+                          "answers":  [
+                                          "FAUX",
+                                          "VRAI"
+                                      ],
+                          "correctAnswers":  [
+                                                 1
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  140,
+                          "question":  "172.30.0.1 est une adresse :",
+                          "type":  "text",
+                          "answers":  [
+                                          "Privée",
+                                          "Publique",
+                                          "Personnelle"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  141,
+                          "question":  "Les UTM Stormshield Network analysent les connexions provenant de l’extérieur seulement.",
+                          "type":  "text",
+                          "answers":  [
+                                          "VRAI",
+                                          "FAUX"
+                                      ],
+                          "correctAnswers":  [
+                                                 1
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  142,
+                          "question":  "La sélection d’une région dans le menu Géolocalisation / Réputation, permet de choisir",
+                          "type":  "text",
+                          "answers":  [
+                                          "Un continent",
+                                          "Un groupe de pays créé par l’administrateur",
+                                          "Un Pays"
+                                      ],
+                          "correctAnswers":  [
+                                                 2
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  143,
+                          "question":  "Quelle est l’action appliquée par défaut si aucune règle de filtrage ne correspond au paquet reçu par l’UTM ?",
+                          "type":  "text",
+                          "answers":  [
+                                          "Eteindre le firewall",
+                                          "Conserver une trace",
+                                          "Bloquer",
+                                          "Passer"
+                                      ],
+                          "correctAnswers":  [
+                                                 2
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  144,
+                          "question":  "Pour une meilleure sécurité, on placera les serveurs publics (mail, Web, FTP, etc…) :",
+                          "type":  "text",
+                          "answers":  [
+                                          "De préférence dans la DMZ",
+                                          "De préférence dans le réseau interne",
+                                          "De préférence sur un switch connecté à l’interface externe"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  145,
+                          "question":  "Est-il possible de configurer plusieurs adresses IP sur une seule interface du firewall ?",
+                          "type":  "text",
+                          "answers":  [
+                                          "Seulement à partir du SN510",
+                                          "Oui dans tous les cas",
+                                          "Seulement sur les interfaces ethernet 10 Gbps",
+                                          "Non peu importe le modèle"
+                                      ],
+                          "correctAnswers":  [
+                                                 1
+                                             ],
+                          "image":  null
+                      },
+                      {
+                          "id":  146,
+                          "question":  "Le routage par politique est prioritaire sur la passerelle par defaut",
+                          "type":  "text",
+                          "answers":  [
+                                          "FAUX",
+                                          "VRAI"
+                                      ],
+                          "correctAnswers":  [
+                                                 0
+                                             ],
+                          "image":  null
+                      }
+                  ]
+}
