@@ -21,6 +21,14 @@ async function loadQuestions() {
         }
         const data = await response.json();
         allQuestions = data.questions;
+        
+        // Mise à jour de l'interface de configuration avec le nombre total de questions
+        const totalCountSpan = document.getElementById('total-questions-count');
+        const numInput = document.getElementById('numQuestions');
+        if (totalCountSpan && numInput) {
+            totalCountSpan.textContent = allQuestions.length;
+            numInput.max = allQuestions.length;
+        }
     } catch (error) {
         console.error('Erreur lors du chargement des questions:', error);
         alert('Erreur lors du chargement des questions. Veuillez rafraîchir la page.');
@@ -33,7 +41,19 @@ function setupEventListeners() {
     if (form) {
         form.addEventListener('submit', startQuiz);
     }
+
+    // Clic sur le label "Max" pour sélectionner toutes les questions
+    const totalLabel = document.getElementById('total-questions-label');
+    if (totalLabel) {
+        totalLabel.addEventListener('click', () => {
+            const numInput = document.getElementById('numQuestions');
+            if (numInput && allQuestions.length > 0) {
+                numInput.value = allQuestions.length;
+            }
+        });
+    }
 }
+
 
 // Démarrer le quiz
 function startQuiz(event) {
@@ -57,7 +77,7 @@ function startQuiz(event) {
     // Afficher la section quiz et masquer la configuration
     document.getElementById('setup').style.display = 'none';
     document.getElementById('questions').style.display = 'block';
-    
+    document.getElementById('corrections').style.display = 'none';
     // Afficher la première question
     displayQuestion();
 }

@@ -40,7 +40,8 @@
                 <form id="quiz-setup-form">
                     <div class="form-group">
                         <label for="numQuestions">Nombre de questions :</label>
-                        <input type="number" id="numQuestions" min="1" max="146" value="20" required>
+                        <label for="numQuestions">Nombre de questions <small id="total-questions-label" style="cursor: pointer; color: var(--text-secondary);" title="Cliquez pour sélectionner toutes les questions">(Max : <span id="total-questions-count">...</span>)</small> :</label>
+                        <input type="number" id="numQuestions" min="1" value="20" required>
                     </div>
                     <button type="submit" class="btn-primary">Commencer le quiz</button>
                 </form>
