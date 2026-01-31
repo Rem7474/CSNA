@@ -110,7 +110,8 @@ section {
     font-size: 0.95rem;
 }
 
-.form-group input[type="number"] {
+.form-group input[type="number"],
+.form-group input[type="password"] {
     width: 100%;
     padding: 0.875rem 1rem;
     border: 2px solid var(--border-color);
@@ -120,7 +121,8 @@ section {
     background: #f9fafb;
 }
 
-.form-group input[type="number"]:focus {
+.form-group input[type="number"]:focus,
+.form-group input[type="password"]:focus {
     outline: none;
     border-color: var(--primary-color);
     background: white;
@@ -356,7 +358,7 @@ img {
     transition: width 0.3s ease;
 }
 
-#corrections, #questions {
+#corrections, #questions, #setup {
     display: none;
 }
 
